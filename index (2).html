@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- head -->
+        <title>Crochet "Hookathon"</title>
+          <link rel="stylesheet" href="styles.css">
+        <link rel="favicon" type="image" href="./img/YarnJam.png">
+    </head>
+    
+    <body>
+       
+        <!-- navbar -->
+    <div class="navbar">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Schedule">Schedule</a></li>
+            <li><a href="#Tutorials">Tutorials</a></li>
+            <li><button id="theme-button">Toggle Dark Mode</button></li>
+        </ul>
+    </div>
+
+        <!-- headings -->
+    <div class="header-container">
+    <div class="header-item">
+        <img id="header-img" src="./img/YarnJam.png"/>
+    </div>
+
+    <div class="header-item" id="Home">
+        <h1 id="Home">Yarn Jam</h1>
+        <h3 id="tagline"><i>Get Hooked on Creativity ౨ৎ</i></h3>
+        <div class="button-container"> 
+            <button class="myButton" type="button">Learn More</button>
+            <button class="myButton" type="button"><b>Register</b></button>
+        </div>
+    </div>
+</div>
+        <!-- about --> 
+        <h2 id="About">About the Event</h2>
+        <p>Yarn Jam is a hackathon-inspired crochet event that brings together creativity, community, and innovation. Participants are challenged to design and create unique crochet projects within a limited time, pushing their skills and imagination. Whether you’re a beginner or an experienced fiber artist, Yarn Jam offers a space to experiment, collaborate, and turn simple yarn into something extraordinary.</p>
+
+        <h3>What to Expect</h3>
+        <ul>
+            <li> <b>Great Vibes</b> <i>Enjoy a welcoming and cozy atmosphere where you can relax, get creative, and feel inspired alongside others.</i></li>
+            <li> <b>Crochet Workshops</b> <i>Participate in hands-on workshops where you’ll learn new techniques, start fun projects, and improve your skills—no experience needed!</i></li>
+            <li> <b>Cool Prizes</b> <i>Take part in exciting challenges and activities for a chance to win fun and creative prizes throughout the event.</i></li>
+        </ul>
+        <br> 
+
+        <!-- schedule --> 
+        <h2 id="Schedule">Event Schedule</h2> 
+
+        <img class="image" alt="3 people in a room crocheting" src="./img/crocheters.png"/>
+        <h3>Day 1 - Kickoff: Get Hooked!!</h3>
+        <p>Kick things off with introductions, team formation, and the official theme reveal. Meet fellow makers, get inspired, and start your first stitches.</p>
+        <br>    
+        <img class="image" alt="Skeins of yarn" src="./img/yarn.png"/>
+        <h3>Day 2 - The Stitch Sprint</h3>
+        <p>Dive into the main build phase. Bring your ideas to life through focused creation, collaboration, and a full day of stitching, experimenting, and pushing your skills.</p>
+        <br> 
+        <img class="image" alt="Granny squares stacked in a pile" src="./img/grannysquares.jpg"/>
+        <h3>Day 3 - Final Loop: The Showcase</h3>
+        <p>Wrap up your project and share your work. Participants present their creations, celebrate each other’s progress, and compete for awards in a final showcase.</p>
+        <br> 
+        <!-- rsvp
+
+Purpose:
+- Section for users to sign up for the event
+- Contains a form for users to input their information, 
+and a list of other users who have signed up
+
+When To Modify:
+- [ ] Project 6 (REQUIRED FEATURE) 
+- [ ] Project 6 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+<div id="rsvp">
+    <h2>RSVP</h2>
+    <div class="rsvp-container">
+        <div class="rsvp-para">
+            <p>Buckle up for a cozy, creative weekend where soft fibers, good vibes, and handmade magic come together. Whether you’re a beginner or a crochet pro, this is your moment to create, connect, and be inspired. From late-night stitch sessions to fun design challenges and a final showcase of everyone’s work, every part of the experience is designed to feel welcoming, relaxing, and a little bit magical. You’ll meet new people, learn new skills, and leave with something you made yourself.</p>
+        </div>
+        <div class="rsvp-participants">
+            <p>🧶 Sarah from Maryland has RSVP'd.</p>
+            <p>🧶 Jessica from California has RSVP'd.</p>
+            <p>🧶 Phillip from New York has RSVP'd.</p>
+        </div>
+    </div>
+
+    <!--- Sign RSVP Form --->
+     <div class="form-container">
+    <form id="rsvp-form">
+      Name: <input id="name" type="text">
+      State: <input id="state" type="text">
+      Email: <input id="email" type="email">
+    </form>
+        <!-- Submit button -->
+        <button id="rsvp-button">Submit RSVP</button>
+    </div>      
+</div>
+
+
+        <!-- success modal
+
+Purpose:
+- Modal that appears when a user successfully signs up for the event
+- Contains a personalized message and image
+
+When To Modify:
+- [ ] Project 9 (REQUIRED FEATURE)
+- [ ] Project 9 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+
+<div id="success-modal" class="modal">
+    <div class="modal-container">
+        <div id="modal-item">
+            <p id="modal-text">insert text here</p>
+        </div>
+        <div id="modal-item">
+            <img src="./img/kitty.png">
+        </div>
+    </div>
+</div>
+
+
+        <!-- links --> 
+        <h2 id="Tutorials">Crochet Tutorials!</h2>
+        <p>Don't know how to crochet? Don't be discouraged! Yarn Jam is for everyone, even if you're just starting your crochet journey. To help, we've curated some tutorials for you to get started.</p>
+        <a class="block" href="https://www.youtube.com/watch?v=aAxGTnVNJiE"><h4>Getting Started</h4></a>
+        <a class="block" href="https://www.youtube.com/watch?v=RVjvNc4qfo8"><h4>Basic Stitches</h4></a>
+        <a class="block" href="https://www.youtube.com/watch?v=p298HxgsO1s"><h4>Magic Ring</h4></a>
+
+       <div class="footer">
+         <a href="https://github.com/mikalaromero" target="_blank">Github</a> /
+         <a href="https://www.linkedin.com/in/mikala-romero-a73522366/" target="_blank">LinkedIn</a>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
